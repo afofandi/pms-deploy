@@ -6,7 +6,7 @@
   }
   
   body {
-	font-family: "Open Sans", sans-serif;
+	font-family: "Open Sans", sans-serif !important;
 	background: #f6f9ff;
 	color: #444444;
   }
@@ -126,7 +126,7 @@
 	line-height: 0;
   }
   .dropdown-menu .dropdown-item:hover {
-	background-color: #f6f9ff;
+	background-color: #f4f4f4;
   }
   
   @media (min-width: 768px) {
@@ -263,7 +263,7 @@
   }
   .accordion-button:not(.collapsed) {
 	color: #012970;
-	background-color: #f6f9ff;
+	background-color: #f4f4f4;
   }
   
   .accordion-flush .accordion-button {
@@ -463,7 +463,7 @@
 	color: #919191;
   }
   .header-nav .notifications .notification-item:hover {
-	background-color: #f6f9ff;
+	background-color: #f4f4f4;
   }
   .header-nav .messages .message-item {
 	padding: 15px 10px;
@@ -488,7 +488,7 @@
 	color: #919191;
   }
   .header-nav .messages .message-item:hover {
-	background-color: #f6f9ff;
+	background-color: #f4f4f4;
   }
   .header-nav .profile {
 	min-width: 240px;
@@ -514,7 +514,7 @@
 	line-height: 0;
   }
   .header-nav .profile .dropdown-item:hover {
-	background-color: #f6f9ff;
+	background-color: #f4f4f4;
   }
   
   /*--------------------------------------------------------------
@@ -595,7 +595,7 @@
 	font-weight: 600;
 	color: #012970 !important;
 	transition: 0.3;
-	/* background: #f6f9ff; */
+	/* background: #f4f4f4; */
 	padding: 6px 15px;
 	border-radius: 4px;
   }
@@ -1075,4 +1075,8 @@
 	text-align: center;
 	font-size: 13px;
 	color: #012970;
+  }
+
+  .mat-table, .mat-select{
+	font-family: "Open Sans", Roboto, "Helvetica Neue", sans-serif !important;
   }
